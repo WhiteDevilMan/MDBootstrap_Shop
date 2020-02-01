@@ -18,6 +18,10 @@ html, body, .view{
  }
 }
 
+.main_nav{
+ background-color: #30e809;
+ font-weight: bold;
+}
 .page-footer{
  background-color: #929fba;
 }
