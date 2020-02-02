@@ -28,8 +28,12 @@ html, body, .view{
  transform: scale(2);
 }
 .carousel-text{
- color: #33991e;
- text-shadow: 2px 2px 2px black;
+ color: #29a60f;
+ text-shadow: 4px 4px 3px black;
+}
+.carousel_title_font{
+ font-family: 'Permanent Marker', cursive;
+ font-size: 3rem;
 }
 /*carousel*/
 
