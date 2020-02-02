@@ -22,6 +22,18 @@ html, body, .view{
  background-color: #30e809;
  font-weight: bold;
 }
+
+/*carousel*/
+.carousel-control-fsize{
+ transform: scale(2);
+}
+.carousel-text{
+ color: #33991e;
+ text-shadow: 2px 2px 2px black;
+}
+/*carousel*/
+
+
 .page-footer{
  background-color: #929fba;
 }
