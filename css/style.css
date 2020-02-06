@@ -43,6 +43,9 @@ html, body, .view{
  background-color: #30e809;
  font-weight: bold;
 }
+.text-col{
+ color: #29a60f;
+}
 /*main block*/
 
 /*Pagination*/
