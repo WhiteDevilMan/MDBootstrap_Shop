@@ -18,6 +18,12 @@ html, body, .view{
  }
 }
 
+/*navbar-brand*/
+.navbar-brand-shadow{
+ text-shadow: 2px 2px 2px black;
+}
+/*navbar-brand*/
+
 /*carousel*/
 .carousel-control-fsize{
  transform: scale(2);
