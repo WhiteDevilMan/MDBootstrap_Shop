@@ -18,11 +18,6 @@ html, body, .view{
  }
 }
 
-.main_nav{
- background-color: #30e809;
- font-weight: bold;
-}
-
 /*carousel*/
 .carousel-control-fsize{
  transform: scale(2);
@@ -36,6 +31,20 @@ html, body, .view{
  font-size: 3rem;
 }
 /*carousel*/
+
+/*main block*/
+.main_nav{
+ background-color: #30e809;
+ font-weight: bold;
+}
+/*main block*/
+
+/*Pagination*/
+.pg-active-item{
+ background-color: #30e809 !important;
+ font-weight: bold;
+}
+/*Pagination*/
 
 
 .page-footer{
