@@ -1,0 +1,620 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+  <meta http-equiv="x-ua-compatible" content="ie=edge">
+  <title>Material Design for Bootstrap</title>
+  <!-- MDB icon -->
+  <link rel="icon" href="img/mdb-favicon.ico" type="image/x-icon">
+  <!-- Font Awesome -->
+  <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.11.2/css/all.css">
+  <link rel="stylesheet" type="text/css" href="http://maxcdn.bootstrapcdn.com/font-awesome/4.2.0/css/font-awesome.min.css">
+  <!-- Google Fonts Roboto -->
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Roboto:300,400,500,700&display=swap">
+  <!--Google Fonts Permanent Marker-->
+  <link href="https://fonts.googleapis.com/css?family=Permanent+Marker&display=swap" rel="stylesheet">
+  <!-- Bootstrap core CSS -->
+  <link rel="stylesheet" href="css/bootstrap.min.css">
+  <!-- Material Design Bootstrap -->
+  <link rel="stylesheet" href="css/mdb.min.css">
+  <!-- Your custom styles (optional) -->
+  <link rel="stylesheet" href="css/style.css">
+  <style>
+   html, body, header, .carousel{
+    height: 60vh;
+   }
+   @media (min-width: 740px){
+    html, body, header, .carousel{
+     height: 100vh;
+    }
+   }
+   @media (min-width: 800px) and (max-width: 850px){
+    html, body, header, .carousel{
+     height: 100vh;
+    }
+   }
+  </style>
+</head>
+<body>
+
+  <nav class="navbar fixed-top navbar-expand-lg navbar-light white scrolling-navbar">
+    <div class="container">
+      <a href="#" class="navbar-brand waves-effect">
+        <strong class="green-text navbar-brand-shadow mr-1">MDB</strong>
+      </a>
+      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarContent" aria-controls="navbarContent"
+      aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarContent">
+        <ul class="navbar-nav mr-auto">
+          <li class="nav-item active">
+            <a href="#" class="nav-link waves-effect font-weight-bold">Home</a></li>
+          <li class="nav-item">
+            <a href="#" class="nav-link waves-effect font-weight-bold">Product</a></li>
+          <li class="nav-item">
+            <a href="#" class="nav-link waves-effect font-weight-bold">About us</a></li>
+          <li class="nav-item">
+            <a href="#" class="nav-link waves-effect font-weight-bold">Contacts</a></li>
+          <li class="nav-item">
+            <a href="#" class="nav-link waves-effect font-weight-bold">Blog</a></li>
+        </ul>
+      </div>
+      <!--right side icons-->
+      <ul class="navbar-nav nav-flex-icons">
+       <!--Cart-->
+       <li class="nav-item">
+        <a href="#" class="nav-link waves-effect">
+         <span class="badge red z-depth-1 mr-1">7</span>
+         <i class="fa fa-shopping-cart aw-font-size green-text"></i>
+         <span class="clearfix d-none d-sm-inline-block font-weight-bold mr-4">Cart</span>
+        </a>
+       </li>
+       <!--Socials-->
+       <li class="nav-item">
+        <a href="#" class="nav-link waves-effect">
+         <i class="fa fa-facebook aw-font-size green-text"></i>
+        </a>
+       </li>
+       <li class="nav-item">
+        <a href="#" class="nav-link waves-effect">
+         <i class="fa fa-twitter aw-font-size green-text"></i>
+        </a>
+       </li>
+       <li class="nav-item">
+        <a href="#" class="nav-link waves-effect border border-light rounded">
+         <i class="fa fa-github aw-font-size green-text"></i>
+        </a>
+       </li>
+      </ul>
+    </div>
+  </nav>
+
+  <!--Carousel-->
+  <div id="carousel-ex" class="carousel slide carousel-fade pt-4" data-ride="carousel">
+   <ol class="carousel-indicators">
+    <li class="active" data-target="#carousel-ex" data-slide-to="0"></li>
+    <li data-target="#carousel-ex" data-slide-to="1"></li>
+    <li data-target="#carousel-ex" data-slide-to="2"></li>
+   </ol>
+
+   <!--Carousel items-->
+   <div class="carousel-inner" role="listbox">
+     <!--Carousel item 1-->
+    <div class="carousel-item active">
+     <div class="view" style="background-image: url(img/carousel/carousel_1.jpeg);
+     background-repeat: no-repeat; background-size: cover;">
+      <div class="mask rgba-black-strong d-flex justify-content-center align-items-center">
+       <div class="text-center white-text mx-5 wow fadeIn">
+        <h1 class="mb-4">
+         <strong class="carousel-text carousel_title_font">Material Design 4 Bootstrap</strong>
+        </h1>
+        <p>
+         <strong class="carousel-text">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aliquid, non!</strong>
+        </p>
+        <p class="mb-4 d-none d-md-block">
+         <strong class="carousel-text">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Cumque animi sequi similique necessitatibus vero, qui?</strong>
+        </p>
+        <a href="#" class="btn btn-outline-white btn-lg  rounded">
+         Lorem ipsum dolor. <i class="fa fa-graduation-cap ml-2 aw-font-size"></i>
+        </a>
+       </div>
+      </div>
+     </div>
+    </div>
+    <!--Carousel item 1-->
+
+    <!--Carousel item 2-->
+    <div class="carousel-item">
+     <div class="view" style="background-image: url(img/carousel/carousel_2.jpeg);
+     background-repeat: no-repeat; background-size: cover;">
+      <div class="mask rgba-black-strong d-flex justify-content-center align-items-center">
+       <div class="text-center white-text mx-5 wow fadeIn">
+        <h1 class="mb-4">
+         <strong class="carousel-text carousel_title_font">Material Design 4 Bootstrap</strong>
+        </h1>
+        <p>
+         <strong class="carousel-text">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aliquid, non!</strong>
+        </p>
+        <p class="mb-4 d-none d-md-block">
+         <strong class="carousel-text">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Cumque animi sequi similique necessitatibus vero, qui?</strong>
+        </p>
+        <a href="#" class="btn btn-outline-white btn-lg rounded">
+         Lorem ipsum dolor. <i class="fa fa-graduation-cap ml-2 aw-font-size"></i>
+        </a>
+       </div>
+      </div>
+     </div>
+    </div>
+    <!--Carousel item 2-->
+
+    <!--Carousel item 3-->
+    <div class="carousel-item">
+     <div class="view" style="background-image: url(img/carousel/carousel_3.jpeg);
+     background-repeat: no-repeat; background-size: cover;">
+      <div class="mask rgba-black-strong d-flex justify-content-center align-items-center">
+       <div class="text-center white-text mx-5 wow fadeIn">
+        <h1 class="mb-4">
+         <strong class="carousel-text carousel_title_font">Material Design 4 Bootstrap</strong>
+        </h1>
+        <p>
+         <strong class="carousel-text">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aliquid, non!</strong>
+        </p>
+        <p class="mb-4 d-none d-md-block">
+         <strong class="carousel-text">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Cumque animi sequi similique necessitatibus vero, qui?</strong>
+        </p>
+        <a href="#" class="btn btn-outline-white btn-lg  rounded">
+         Lorem ipsum dolor. <i class="fa fa-graduation-cap ml-2 aw-font-size"></i>
+        </a>
+       </div>
+      </div>
+     </div>
+    </div>
+    <!--Carousel item 3-->
+   </div>   
+   <!--Carousel items-->
+
+   <!--Navigation arrows-->
+   <a href="#carousel-ex" class="carousel-control-prev" role="button" data-slide="prev">
+     <span class="carousel-control-prev-icon carousel-control-fsize" aria-hidden="true"></span>
+   </a>
+   <a href="#carousel-ex" class="carousel-control-next" role="button" data-slide="next">
+     <span class="carousel-control-next-icon carousel-control-fsize" aria-hidden="true"></span>
+   </a>
+   <!--Navigation arrows-->
+
+  </div>
+  <!--Carousel-->
+
+  <!--main block-->
+  <main>
+    <div class="container">
+      <nav class="nav navbar navbar-expand-lg navbar-dark main_nav mt-3 mb-5  border rounded">
+        <span class="navbar-brand">Categories:</span>
+
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#nextNav" aria-controls="nextNav" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>          
+        </button>
+
+        <!--Main nav Categories-->
+        <div id="nextNav" class="collapse navbar-collapse">
+          <ul class="navbar-nav mr-auto">
+            <li class="nav-item">
+              <a href="#" class="nav-link">All</a>
+            </li>
+            <li class="nav-item">
+              <a href="#" class="nav-link active">T-Shirts</a>
+            </li>
+            <li class="nav-item">
+              <a href="#" class="nav-link">Sport wear</a>
+            </li>
+            <li class="nav-item">
+              <a href="#" class="nav-link">Outwear</a>
+            </li>
+          </ul>     
+        </div>
+        <!--Main nav Categories-->
+
+        <!--Main nav form-->
+        <form action="" class="form-inline">
+          <div class="md-form my-0">
+            <input type="text" class="form-control mr-sm-2" placeholder="Search" aria-label="Search">
+          </div>
+        </form>
+        <!--Main nav form-->
+      </nav>
+
+      <!--Goods-->
+      <section class="text-center mb-4">
+
+        <!--card block row-->
+        <div class="row wow fadeIn">
+          <!--card block 1-->
+          <div class="col-lg-3 col-md-6 mb-4">
+            <div class="card">
+
+              <div class="view overlay">
+                <div class="card-img-top" src="">
+                  <a href="#">
+                    <img src="img/goods/ts1.jpg" alt="vsemayki.ru" style="width: 100%;">
+                    <div class="mask rgba-white-slight"></div>
+                  </a>
+                </div>
+
+                <div class="card-body text-center">
+                  <a href="" class="grey-text">
+                    <h5>Gift</h5>
+                  </a>
+
+                  <h5>
+                    <strong>
+                      <a href="#" class="dark-grey-text">Gift
+                        <span class="badge badge-pill danger-color">
+                          NEW
+                        </span>
+                      </a>
+                    </strong>
+                  </h5>
+                  <h4 class="font-weight-bold text-col">
+                    <strong>199$</strong>
+                  </h4>                  
+                </div>
+              </div>
+
+            </div>
+          </div>
+          <!--card block 1-->
+
+          <!--card block 2-->
+          <div class="col-lg-3 col-md-6 mb-4">
+            <div class="card">
+
+              <div class="view overlay">
+                <div class="card-img-top" src="">
+                  <a href="#">
+                    <img src="img/goods/ts2.jpg" alt="vsemayki.ru" style="width: 100%;">
+                    <div class="mask rgba-white-slight"></div>
+                  </a>
+                </div>
+
+                <div class="card-body text-center">
+                  <a href="" class="grey-text">
+                    <h5>Gift</h5>
+                  </a>
+
+                  <h5>
+                    <strong>
+                      <a href="#" class="dark-grey-text">Gift
+                        <span class="badge badge-pill danger-color">
+                          NEW
+                        </span>
+                      </a>
+                    </strong>
+                  </h5>
+                  <h4 class="font-weight-bold text-col">
+                    <strong>199$</strong>
+                  </h4>                  
+                </div>
+              </div>
+
+            </div>
+          </div>
+          <!--card block 2-->
+
+          <!--card block 3-->
+          <div class="col-lg-3 col-md-6 mb-4">
+            <div class="card">
+
+              <div class="view overlay">
+                <div class="card-img-top" src="">
+                  <a href="#">
+                    <img src="img/goods/ts3.jpg" alt="vsemayki.ru" style="width: 100%;">
+                    <div class="mask rgba-white-slight"></div>
+                  </a>
+                </div>
+
+                <div class="card-body text-center">
+                  <a href="" class="grey-text">
+                    <h5>Gift</h5>
+                  </a>
+
+                  <h5>
+                    <strong>
+                      <a href="#" class="dark-grey-text">Gift
+                        <span class="badge badge-pill danger-color">
+                          NEW
+                        </span>
+                      </a>
+                    </strong>
+                  </h5>
+                  <h4 class="font-weight-bold text-col">
+                    <strong>199$</strong>
+                  </h4>                  
+                </div>
+              </div>
+
+            </div>
+          </div>
+          <!--card block 3-->
+
+          <!--card block 4-->
+          <div class="col-lg-3 col-md-6 mb-4">
+            <div class="card">
+
+              <div class="view overlay">
+                <div class="card-img-top" src="">
+                  <a href="#">
+                    <img src="img/goods/ts4.jpg" alt="vsemayki.ru" style="width: 100%;">
+                    <div class="mask rgba-white-slight"></div>
+                  </a>
+                </div>
+
+                <div class="card-body text-center">
+                  <a href="" class="grey-text">
+                    <h5>Gift</h5>
+                  </a>
+
+                  <h5>
+                    <strong>
+                      <a href="#" class="dark-grey-text">Gift
+                        <span class="badge badge-pill danger-color">
+                          NEW
+                        </span>
+                      </a>
+                    </strong>
+                  </h5>
+                  <h4 class="font-weight-bold text-col">
+                    <strong>199$</strong>
+                  </h4>                  
+                </div>
+              </div>
+
+            </div>
+          </div>
+          <!--card block 4-->
+        </div>
+        <!--card block row-->
+
+        <!--card block row-->
+        <div class="row wow fadeIn">
+          <!--card block 1-->
+          <div class="col-lg-3 col-md-6 mb-4">
+            <div class="card">
+
+              <div class="view overlay">
+                <div class="card-img-top" src="">
+                  <a href="#">
+                    <img src="img/goods/ts5.jpg" alt="vsemayki.ru" style="width: 100%;">
+                    <div class="mask rgba-white-slight"></div>
+                  </a>
+                </div>
+
+                <div class="card-body text-center">
+                  <a href="" class="grey-text">
+                    <h5>Gift</h5>
+                  </a>
+
+                  <h5>
+                    <strong>
+                      <a href="#" class="dark-grey-text">Gift
+                        <span class="badge badge-pill danger-color">
+                          NEW
+                        </span>
+                      </a>
+                    </strong>
+                  </h5>
+                  <h4 class="font-weight-bold text-col">
+                    <strong>199$</strong>
+                  </h4>                  
+                </div>
+              </div>
+
+            </div>
+          </div>
+          <!--card block 1-->
+
+          <!--card block 2-->
+          <div class="col-lg-3 col-md-6 mb-4">
+            <div class="card">
+
+              <div class="view overlay">
+                <div class="card-img-top" src="">
+                  <a href="#">
+                    <img src="img/goods/ts6.jpg" alt="vsemayki.ru" style="width: 100%;">
+                    <div class="mask rgba-white-slight"></div>
+                  </a>
+                </div>
+
+                <div class="card-body text-center">
+                  <a href="" class="grey-text">
+                    <h5>Gift</h5>
+                  </a>
+
+                  <h5>
+                    <strong>
+                      <a href="#" class="dark-grey-text">Gift
+                        <span class="badge badge-pill danger-color">
+                          NEW
+                        </span>
+                      </a>
+                    </strong>
+                  </h5>
+                  <h4 class="font-weight-bold text-col">
+                    <strong>199$</strong>
+                  </h4>                  
+                </div>
+              </div>
+
+            </div>
+          </div>
+          <!--card block 2-->
+
+          <!--card block 3-->
+          <div class="col-lg-3 col-md-6 mb-4">
+            <div class="card">
+
+              <div class="view overlay">
+                <div class="card-img-top" src="">
+                  <a href="#">
+                    <img src="img/goods/ts7.jpg" alt="vsemayki.ru" style="width: 100%;">
+                    <div class="mask rgba-white-slight"></div>
+                  </a>
+                </div>
+
+                <div class="card-body text-center">
+                  <a href="" class="grey-text">
+                    <h5>Gift</h5>
+                  </a>
+
+                  <h5>
+                    <strong>
+                      <a href="#" class="dark-grey-text">Gift
+                        <span class="badge badge-pill danger-color">
+                          NEW
+                        </span>
+                      </a>
+                    </strong>
+                  </h5>
+                  <h4 class="font-weight-bold text-col">
+                    <strong>199$</strong>
+                  </h4>                  
+                </div>
+              </div>
+
+            </div>
+          </div>
+          <!--card block 3-->
+
+          <!--card block 4-->
+          <div class="col-lg-3 col-md-6 mb-4">
+            <div class="card">
+
+              <div class="view overlay">
+                <div class="card-img-top" src="">
+                  <a href="#">
+                    <img src="img/goods/ts8.jpg" alt="vsemayki.ru" style="width: 100%;">
+                    <div class="mask rgba-white-slight"></div>
+                  </a>
+                </div>
+
+                <div class="card-body text-center">
+                  <a href="" class="grey-text">
+                    <h5>Gift</h5>
+                  </a>
+
+                  <h5>
+                    <strong>
+                      <a href="#" class="dark-grey-text">Gift
+                        <span class="badge badge-pill danger-color">
+                          NEW
+                        </span>
+                      </a>
+                    </strong>
+                  </h5>
+                  <h4 class="font-weight-bold text-col">
+                    <strong>199$</strong>
+                  </h4>                  
+                </div>
+              </div>
+
+            </div>
+          </div>
+          <!--card block 4-->
+        </div>
+        <!--card block row-->
+      </section>
+      <!--Goods-->
+
+      <!--Pagination-->
+      <nav class="d-flex justify-content-center wow fadeIn">
+        <ul class="pagination">
+          <li class="page-item disabled">
+            <a href="#" class="page-link" aria-label="Previous">
+              <span aria-hidden="true">&laquo;</span>
+            </a>
+          </li>
+          <li class="page-item active">
+            <a href="#" class="page-link pg-active-item" aria-label="Previous">
+              <span aria-hidden="true">1</span>
+            </a>
+          </li>
+          <li class="page-item">
+            <a href="#" class="page-link" aria-label="Previous">
+              <span aria-hidden="true">2</span>
+            </a>
+          </li>
+          <li class="page-item">
+            <a href="#" class="page-link" aria-label="Previous">
+              <span aria-hidden="true">3</span>
+            </a>
+          </li>
+          <li class="page-item">
+            <a href="#" class="page-link" aria-label="Previous">
+              <span aria-hidden="true">4</span>
+            </a>
+          </li>
+          <li class="page-item">
+            <a href="#" class="page-link" aria-label="Previous">
+              <span aria-hidden="true">5</span>
+            </a>
+          </li>
+          <li class="page-item">
+            <a href="#" class="page-link" aria-label="Next">
+              <span aria-hidden="true">&raquo;</span>
+            </a>
+          </li>
+        </ul>
+      </nav>
+      <!--Pagination-->
+
+    </div>
+  </main>
+  <!--main block-->
+
+  <!--footer block-->
+  <footer class="page-footer text-center font-small mt-4 wow fadeIn">
+    <!--footer buttons-->
+    <div class="pt-4">
+      <a href="#" role="button" class="btn btn-outline-white">MDB
+        <i class="fa fa-graduation-cap ml-2"></i></a>
+      <a href="#" role="button" class="btn btn-outline-white">Online shop
+        <i class="aduation-cap ml-2"></i></a>
+    </div>
+    <!--footer buttons-->
+
+    <hr class="my-4">
+    <!--footer socials-->
+    <div class="pb-4">
+      <a href="#"><i class="fa fa-facebook    mr-3"></i></a>
+      <a href="#"><i class="fa fa-twitter     mr-3"></i></a>
+      <a href="#"><i class="fa fa-youtube     mr-3"></i></a>
+      <a href="#"><i class="fa fa-google-plus mr-3"></i></a>
+      <a href="#"><i class="fa fa-dribbble    mr-3"></i></a>
+      <a href="#"><i class="fa fa-pinterest   mr-3"></i></a>
+      <a href="#"><i class="fa fa-github      mr-3"></i></a>
+    </div>
+    <!--footer socials-->
+
+    <!--footer copyright-->
+    <div class="footer-copyright py-3">
+      - MDB -
+    </div>
+    <!--footer copyright-->
+  </footer>
+  <!--footer block-->
+
+  <!--Scripts-->
+  <!-- jQuery -->
+  <script type="text/javascript" src="js/jquery.min.js"></script>
+  <!-- Bootstrap tooltips -->
+  <script type="text/javascript" src="js/popper.min.js"></script>
+  <!-- Bootstrap core JavaScript -->
+  <script type="text/javascript" src="js/bootstrap.min.js"></script>
+  <!-- MDB core JavaScript -->
+  <script type="text/javascript" src="js/mdb.min.js"></script>
+  <!-- Your custom scripts (optional) -->
+  <script type="text/javascript"></script>
+
+</body>
+</html>
