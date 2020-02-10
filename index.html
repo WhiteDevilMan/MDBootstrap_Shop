@@ -195,7 +195,7 @@
   <!--main block-->
   <main>
     <div class="container">
-      <nav class="nav navbar navbar-expand-lg navbar-dark main_nav mt-3 mb-5  border rounded">
+      <nav class="nav navbar navbar-expand-lg navbar-dark main_nav mt-3 mb-5 border rounded wow jackInTheBox">
         <span class="navbar-brand">Categories:</span>
 
         <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#nextNav" aria-controls="nextNav" aria-expanded="false" aria-label="Toggle navigation">
@@ -234,7 +234,7 @@
       <section class="text-center mb-4">
 
         <!--card block row-->
-        <div class="row wow fadeIn">
+        <div class="row wow rotateInUpLeft">
           <!--card block 1-->
           <div class="col-lg-3 col-md-6 mb-4">
             <div class="card">
@@ -382,7 +382,7 @@
         <!--card block row-->
 
         <!--card block row-->
-        <div class="row wow fadeIn">
+        <div class="row wow rotateInUpRight">
           <!--card block 1-->
           <div class="col-lg-3 col-md-6 mb-4">
             <div class="card">
@@ -532,7 +532,7 @@
       <!--Goods-->
 
       <!--Pagination-->
-      <nav class="d-flex justify-content-center wow fadeIn">
+      <nav class="d-flex justify-content-center wow heartBeat">
         <ul class="pagination">
           <li class="page-item disabled">
             <a href="#" class="page-link" aria-label="Previous">
@@ -620,6 +620,11 @@
   <script type="text/javascript" src="js/mdb.min.js"></script>
   <!-- Your custom scripts (optional) -->
   <script type="text/javascript"></script>
+  <script>
+    $(document).ready(function () {
+      new WOW().init();
+    });
+  </script>
 
 </body>
 </html>
