@@ -9,6 +9,11 @@ html, body, .view{
 /*navbar-brand*/
 
 /*carousel*/
+
+#carousel-ex{
+ height: 100%;
+}
+
 .carousel{
  height: 100%;
 }
@@ -19,6 +24,7 @@ html, body, .view{
 .carousel .carousel-inner .active{
  height: 100%;
 }
+
 @media (max-width: 776px){
  .carousel{
   height: 100%;
